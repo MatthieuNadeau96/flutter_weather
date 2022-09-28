@@ -1,5 +1,5 @@
-name: open_meteo_api
-description: A Dart API Client for the Open-Meteo API.
+name: weather_repository
+description: A Dart repository which manages the weather domain.
 version: 0.0.1
 homepage:
 
@@ -11,12 +11,13 @@ dependencies:
   flutter:
     sdk: flutter
   json_annotation: ^4.7.0
-  http: ^0.13.5
-  equatable: ^2.0.5
+  open_meteo_api:
+    path: ../open_meteo_api
 
 dev_dependencies:
-  json_serializable: ^6.4.0
   build_runner: ^2.2.1
+  json_serializable: ^6.4.0
+  coverage: ^1.6.1
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
