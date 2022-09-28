@@ -1,5 +1,6 @@
 name: weather_repository
 description: A Dart repository which manages the weather domain.
+publish_to: "none"
 version: 0.0.1
 homepage:
 
